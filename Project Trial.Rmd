@@ -9,4 +9,4 @@ output: html_document
 > mean(df$drug1, na.rm=TRUE)
 [1] 5
 # The goal for the project as a whole is to analyze Shea's capstone data, which is data collected from white tailed deer in Oklahoma.
-# The data above was just a test trial in order to determine what commands were needed in order to find the mean. Now that this is accomplished we can apply the same commands and others to anaylze the capstone data. 
+# The data will be entered from an excel file that has been created and analyzed using a T-test to measure the P-value and the Hardy-Weinberg Equilibrium to measure allele frequency. Averages of each numberic value column will also be established. 
