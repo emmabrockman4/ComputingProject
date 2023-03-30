@@ -8,4 +8,4 @@ output: html_document
 > df <- data.frame(drug1 = c(4,5,6, NA), drug2 = c(6,7,8, NA), drug3 = c(8, 9, 10, NA))
 > mean(df$drug1, na.rm=TRUE)
 [1] 5
-# The goal for the project as a whole is to analyze capstone data.
+# The goal for the project as a whole is to analyze Shea's capstone data, which is data collected from white tailed deer in Oklahoma.
