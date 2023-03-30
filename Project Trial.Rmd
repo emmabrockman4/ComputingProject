@@ -9,4 +9,6 @@ output: html_document
 > mean(df$drug1, na.rm=TRUE)
 [1] 5
 # The goal for the project as a whole is to analyze Shea's capstone data, which is data collected from white tailed deer in Oklahoma.
-# The data will be entered from an excel file that has been created and analyzed using a T-test to measure the P-value and the Hardy-Weinberg Equilibrium to measure allele frequency. Averages of each numberic value column will also be established. 
+# The data will be entered from an excel file that has been created and analyzed using a T-test to measure the P-value and the Hardy-Weinberg Equilibrium to measure allele frequency. Averages of each numberic value column will also be established.
+# The following is a link to the excel data sheet we are using. 
+[OBU data (1).xlsx](https://github.com/emmabrockman4/ComputingProject/files/11115999/OBU.data.1.xlsx) 
