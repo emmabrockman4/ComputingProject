@@ -9,7 +9,7 @@ output: html_document
 > mean(df$drug1, na.rm=TRUE)
 [1] 5
 # The goal for the project as a whole is to analyze Shea's capstone data, which is data collected from white tailed deer in Oklahoma.
-# The data will be entered from an excel file that has been created and analyzed using a T-test to measure the P-value and the Hardy-Weinberg Equilibrium to measure allele frequency. Averages of each numberic value column will also be established.
+# The data will be entered from an excel file that has been created and analyzed using a ttest to measure the P-value. Averages of each numberic value column will also be established.
 # The following is an upload of the excel data sheet file that we are using. This was a helpful website: https://community.rstudio.com/t/load-excel-file-into-rmarkdown/103020/3  
 [OBU data (1).xlsx](https://github.com/emmabrockman4/ComputingProject/files/11115999/OBU.data.1.xlsx) 
 ---{r}
@@ -55,3 +55,4 @@ sample estimates:
 15.66500         13.61167 
 
 #The ttest was really easy and simple to do in R versus jupyter lab. There is also more freedom in R to do one and two tailed tests in R. It was also much simpler because I simply had to import data and run the test, rather than go through the hassle of defining the columns.
+#Overall, when comparing the two programs we found that there were less chances for problems to occur if we use R instead of jupyter lab. These were useful in analyzing my capstone data because we were able to perform and compare the ttest values in various programs. This will also help with analysis in the future since we are now familiar with the programs and know the basics of each for performance. We now understand the problems associated within jupyter lab and the simplicity of R.    
