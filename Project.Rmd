@@ -32,7 +32,7 @@ condition = (data['SA'] > 0.5) & (data['PO'] > 0.5)
 t_statistic, p_value = stats.ttest_ind(column1[condition], column2[condition])
 print("T-statistic: ", t_statistic)
 print("P-value: ", p_value)
-# overall analysis: The ttest was very easy to perform in Jupyter lab. The only problem that forshadowed wa that it did not require for the specifications of a ttest. This may rise to be an issue because there are several possibilites that effect the results of a ttest. Some of these options are 1-tailed,2-tailesd, and paired. These three differetn options for doing a ttest can provide a very wide array of numbers for the p-value and t-statistic. Overrall this language was very easy to use but may prove to be a little to easy and not desireably specific.
+# overall analysis: The ttest was very easy to perform in Jupyter lab. The only problem that forshadowed was that it did not require for the specifications of a ttest. This may rise to be an issue because there are several possibilites that effect the results of a ttest. Some of these options are 1-tailed,2-tailesd, and paired. These three differetn options for doing a ttest can provide a very wide array of numbers for the p-value and t-statistic. Overrall this language was very easy to use but may prove to be a little to easy and not desireably specific.
 -----
 # t test for SA and PO in R
 # this is how a t test was ran in R
