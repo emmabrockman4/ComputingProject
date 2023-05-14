@@ -11,11 +11,16 @@ output: html_document
 # The goal for the project as a whole is to analyze Shea's capstone data, which is data collected from white tailed deer in Oklahoma.
 # The data will be entered from an excel file that has been created and analyzed using a ttest to measure the P-value. Averages of each numberic value column will also be established.
 # The following is an upload of the excel data sheet file that we are using. This was a helpful website: https://community.rstudio.com/t/load-excel-file-into-rmarkdown/103020/3  
-[OBU data (1).xlsx](https://github.com/emmabrockman4/ComputingProject/files/11115999/OBU.data.1.xlsx) 
----{r}
+["C:\Users\sheac\OneDrive\Desktop\SAvsPO1.xlsx"](https://github.com/emmabrockman4/ComputingProject/files/11115999/OBU.data.1.xlsx) 
+```{r}
+#install and load readxl package
+install.packages('readxl')
 library(readxl)
-OBU data <- read_excel("OBU data (1).xlsx")
----
+
+#import Excel file into R
+data <- read_excel("C:\\Users\\sheac\\OneDrive\\Desktop\\SAvsPO1.xlsx")
+
+```
 # From this point on is the steps required to perform a ttest in Jupyter Lab
 # import the data
 import pandas as pd
