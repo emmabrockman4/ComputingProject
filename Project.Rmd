@@ -33,7 +33,7 @@ t_statistic, p_value = stats.ttest_ind(column1[condition], column2[condition])
 print("T-statistic: ", t_statistic)
 print("P-value: ", p_value)
 # overall analysis: The ttest was very easy to perform in Jupyter lab. The only problem that forshadowed was that it did not require for the specifications of a ttest. This may rise to be an issue because there are several possibilites that effect the results of a ttest. Some of these options are 1-tailed,2-tailesd, and paired. These three differetn options for doing a ttest can provide a very wide array of numbers for the p-value and t-statistic. Overrall this language was very easy to use but may prove to be a little to easy and not desireably specific.
------
+------
 # Here is how the data was analyzed using a T Test in R Studio:
 # First, the data was arranged in two columns of an excel spreadsheet. I organized the data such that each zone of inhibition diameter had either "SA" for (Salicylic Acid)  or "PO" (for Peppermint Oil) associated with it. The excel file was then saved as a .csv and improted into R. The following is the code used for the test. I first told R what dataset to use by the read.csv command. Then for the T Test, the zoi represents the numeric value followed by "drug" column (SA or PO). The var.equal representes the two variances between the data being equal, and this was ran as an unpaired t-test because we were comparing two different "drugs"
 
